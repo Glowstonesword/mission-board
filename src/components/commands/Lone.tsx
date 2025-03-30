@@ -2,7 +2,7 @@ import { useContext } from "react";
 import _ from "lodash";
 import { termContext } from "../Terminal";
 
-const Gui: React.FC = () => {
+const Lone: React.FC = () => {
   const { history, rerender } = useContext(termContext);
 
   /* ===== get current command ===== */
@@ -16,4 +16,4 @@ const Gui: React.FC = () => {
   return <span></span>;
 };
 
-export default Gui;
+export default Lone;
