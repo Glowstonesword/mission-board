@@ -8,7 +8,7 @@ import Lone from "./commands/Lone";
 import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
-import Projects from "./commands/Projects";
+import Contacts from "./commands/Contacts";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
 import Test from "./commands/Test";
@@ -43,7 +43,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           lone: <Lone />,
           help: <Help />,
           history: <History />,
-          projects: <Projects />,
+          contacts: <Contacts />,
           pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
           socials: <Socials />,
           themes: <Themes />,
