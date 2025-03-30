@@ -35,20 +35,20 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
     <OutputContainer data-testid={index === 0 ? "latest-output" : null}>
       {
         {
-          about: <About />,
-          clear: <Clear />,
-          echo: <Echo />,
           main: <Main />,
           optional: <Optional />,
           lone: <Lone />,
-          help: <Help />,
-          history: <History />,
           contacts: <Contacts />,
-          pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
           projects: <Projects />,
+          clear: <Clear />,
           themes: <Themes />,
-          test: <Test />,
           welcome: <Welcome />,
+          help: <Help />,
+          about: <About />,
+          echo: <Echo />,
+          history: <History />,
+          pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
+          test: <Test />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
         }[cmd]
       }
