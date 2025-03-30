@@ -1,7 +1,7 @@
 import { EduIntro, EduList } from "../styles/Education.styled";
 import { Wrapper } from "../styles/Output.styled";
 
-const Test: React.FC = () => {
+const Datalog: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduIntro>Here is my meme background!</EduIntro>
@@ -30,4 +30,4 @@ const eduBg = [
   },
 ];
 
-export default Test;
+export default Datalog;
