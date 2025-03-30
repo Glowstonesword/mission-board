@@ -11,7 +11,8 @@ import History from "./commands/History";
 import Contacts from "./commands/Contacts";
 import Projects from "./commands/Projects";
 import Themes from "./commands/Themes";
-import Test from "./commands/Test";
+import Datalog from "./commands/Datalog";
+import Organisation from "./commands/Organisation";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -46,9 +47,10 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           help: <Help />,
           about: <About />,
           echo: <Echo />,
-          history: <History />,
+          organisation: <Organisaton />,
           pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
-          test: <Test />,
+          datalog: <Datalog />,
+          history: <History />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
         }[cmd]
       }
