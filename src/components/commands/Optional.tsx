@@ -3,7 +3,7 @@ import _ from "lodash";
 import { Wrapper } from "../styles/Output.styled";
 import { termContext } from "../Terminal";
 
-const Email: React.FC = () => {
+const Optional: React.FC = () => {
   const { history, rerender } = useContext(termContext);
 
   /* ===== get current command ===== */
@@ -20,4 +20,4 @@ const Email: React.FC = () => {
   );
 };
 
-export default Email;
+export default Optional;
