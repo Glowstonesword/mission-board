@@ -11,6 +11,7 @@ import History from "./commands/History";
 import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
+import Test from "./commands/Test";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -46,6 +47,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
           socials: <Socials />,
           themes: <Themes />,
+          test: <Test />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
         }[cmd]
