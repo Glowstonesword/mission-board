@@ -23,26 +23,20 @@ const Welcome: React.FC = () => {
         </PreName>
         <PreWrapper>
           <PreNameMobile>
-            {`
-    ____     __          
-   / __/__ _/ /_         
-  _\\ \\/ _ \`/ __/         
- /___/\\_,_/\\__/          
-    _  __     _          
-   / |/ /__ _(_)__  ___ _
-  /    / _ \`/ / _ \\/ _ \`/
- /_/|_/\\_,_/_/_//_/\\_, / 
-                  /___/  
- 
-          `}
+            {`███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗    ██████╗  ██████╗  █████╗ ██████╗ ██████╗     
+████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║    ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗    
+██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║    ██████╔╝██║   ██║███████║██████╔╝██║  ██║    
+██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║    ██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║    
+██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║    ██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    
+╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
+        <div>Welcome, Lancer.</div>
         <Seperator>----</Seperator>
         <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
+          The main database can be found{" "}
+          <Link href="https://sprightly-puffpuff-4caef5.netlify.app/">
+            here
           </Link>
           .
         </div>
