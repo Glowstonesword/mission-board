@@ -10,7 +10,7 @@ import {
 import { termContext } from "../Terminal";
 import Usage from "../Usage";
 
-const Socials: React.FC = () => {
+const Projects: React.FC = () => {
   const { arg, history, rerender } = useContext(termContext);
 
   /* ===== get current command ===== */
@@ -75,4 +75,4 @@ const socials = [
   },
 ];
 
-export default Socials;
+export default Projects;
