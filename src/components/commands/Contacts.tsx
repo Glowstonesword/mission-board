@@ -13,7 +13,7 @@ import {
 import { termContext } from "../Terminal";
 import Usage from "../Usage";
 
-const Projects: React.FC = () => {
+const Contacts: React.FC = () => {
   const { arg, history, rerender } = useContext(termContext);
 
   /* ===== get current command ===== */
@@ -80,4 +80,4 @@ const projects = [
   },
 ];
 
-export default Projects;
+export default Contacts;
