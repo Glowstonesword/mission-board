@@ -9,7 +9,7 @@ import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
 import Contacts from "./commands/Contacts";
-import Socials from "./commands/Socials";
+import Projects from "./commands/Projects";
 import Themes from "./commands/Themes";
 import Test from "./commands/Test";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
@@ -45,7 +45,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           history: <History />,
           contacts: <Contacts />,
           pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
-          socials: <Socials />,
+          projects: <Projects />,
           themes: <Themes />,
           test: <Test />,
           welcome: <Welcome />,
