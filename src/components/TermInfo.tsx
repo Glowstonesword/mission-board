@@ -3,7 +3,7 @@ import { User, WebsiteName, Wrapper } from "./styles/TerminalInfo.styled";
 const TermInfo = () => {
   return (
     <Wrapper>
-      <User>lancer</User>@<WebsiteName>terminal.missionboard.flockofiron</WebsiteName>:~$
+      <User>lancer</User>@<WebsiteName>terminal.flockofiron.scrapheap</WebsiteName>:~$
     </Wrapper>
   );
 };
