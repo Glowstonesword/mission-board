@@ -7,6 +7,7 @@ const Board: React.FC = () => {
       <EduIntro><b>MISSION BOARD</b></EduIntro>
       <EduIntro>==============</EduIntro>
       <EduList>TEST BOI</EduList>
+      <EduList>Test2</EduList>
       {eduBg.map(({ title, source, intro, line }) => (
         <EduList key={title}>
           <div className="title">{title}</div>
