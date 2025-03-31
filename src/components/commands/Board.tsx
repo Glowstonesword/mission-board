@@ -10,7 +10,7 @@ const Board: React.FC = () => {
       <EduIntro>Continue</EduIntro>
       <EduIntro>Finish</EduIntro>
       <EduList>‎ </EduList>
-      <EduIntro><b>Who Investigates The Investigators</b><p>MISSION AVAILALE - CLOSED CHANNEL <b>[DIRECT REQUEST &gt; SSF]</b></p><p>Start garefgasergsrehgsrhtshshtsdrhshsrhtsrhsrhsrhs</p></EduIntro>
+      <EduIntro><b>Who Investigates The Investigators</b><p>MISSION AVAILALE - CLOSED CHANNEL <b>[DIRECT REQUEST &gt; SSF]</b></p></EduIntro>
       <EduIntro>Continue</EduIntro>
       <EduIntro>Finish</EduIntro>
     </Wrapper>
