@@ -5,10 +5,12 @@ const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduIntro><b>MISSION BOARD</b></EduIntro>
-      {eduBg.map(({ title, desc }) => (
+      {eduBg.map(({ title, source, desc, line }) => (
         <EduList key={title}>
           <div className="title">{title}</div>
+          <div className="source">{source}</div>
           <div className="desc">{desc}</div>
+          <div className="line">{line}</div>
         </EduList>
       ))}
     </Wrapper>
@@ -18,18 +20,21 @@ const Board: React.FC = () => {
 const eduBg = [
   {
     title: "What Goes Around",
-    desc: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]
-      ",
+    source: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]",
+    desc: "Test",
+    line: "",
   },
   {
     title: "Something Or Other",
-    desc: "MISSION AVAILABLE - OPEN CHANNEL [OPEN CONTRACTS > IPS-N]
-      ",
+    source: "MISSION AVAILABLE - OPEN CHANNEL [OPEN CONTRACTS > IPS-N]",
+    desc: "Test",
+    line: "",
   },
   {
     title: "Who Watches The Watchers",
-    desc: "MISSION AVAILABLE - CLOSED CHANNEL [CLOSED CONTRACT > SSF]
-      ",
+    source: "MISSION AVAILABLE - CLOSED CHANNEL [CLOSED CONTRACT > SSF]",
+    desc: "Test",
+    line: "",
   },
 ];
 
