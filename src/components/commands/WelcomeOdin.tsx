@@ -9,8 +9,6 @@ import {
   Seperator,
 } from "../styles/Welcome.styled";
 
-import { EduIntro, EduList } from "../styles/Education.styled";
-
 const WelcomeOdin: React.FC = () => {
   return (
     <HeroContainer data-testid="welcome">
@@ -35,7 +33,7 @@ const WelcomeOdin: React.FC = () => {
 `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome, <b>CORVUS</b></div>
+        <div>Welcome, <b>CORVUS</b>.</div>
         <Seperator>----</Seperator>
         <div>
           The main database can be found{" "}
