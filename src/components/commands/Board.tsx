@@ -18,15 +18,18 @@ const Board: React.FC = () => {
 const eduBg = [
   {
     title: "What Goes Around",
-    desc: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]",
+    desc: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]
+      ",
   },
   {
     title: "Something Or Other",
-    desc: "MISSION AVAILABLE - OPEN CHANNEL [OPEN CONTRACTS > IPS-N]",
+    desc: "MISSION AVAILABLE - OPEN CHANNEL [OPEN CONTRACTS > IPS-N]
+      ",
   },
   {
     title: "Who Watches The Watchers",
-    desc: "MISSION AVAILABLE - CLOSED CHANNEL [CLOSED CONTRACT > SSF]",
+    desc: "MISSION AVAILABLE - CLOSED CHANNEL [CLOSED CONTRACT > SSF]
+      ",
   },
 ];
 
