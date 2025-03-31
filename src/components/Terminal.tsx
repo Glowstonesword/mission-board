@@ -40,7 +40,7 @@ export const commands: Command = [
   { cmd: "organisation", desc: "check organisation information", tab: 1 },
   { cmd: "login", desc: "login to terminal", tab: 7},
   { cmd: "4thebirdz", desc: "memes", tab: 7},
-  { cmd: "comms 4thebirdz", desc: "memes", tab: 7},
+  { cmd: "comms4thebirdz", desc: "memes", tab: 7},
   { cmd: "comms", desc: "display incoming communications; private comms can be viewed by entering your password after (e.g. comms password)", tab: 8 },
 ];
 
@@ -48,7 +48,7 @@ export const commands: Command = [
 export const commandHelp: Command = [
   { cmd: "board", desc: "display available missions", tab: 8 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
-  { cmd: "comms", desc: "display incoming communications; private comms can be viewed by entering your password after (e.g. comms password)", tab: 8 },
+  { cmd: "comms", desc: "display incoming communications; private comms can be viewed by entering your password after (e.g. commspassword)", tab: 8 },
   { cmd: "contacts", desc: "view available contacts", tab: 5 },
   { cmd: "datalog", desc: "informational database access", tab: 6 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
