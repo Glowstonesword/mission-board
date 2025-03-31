@@ -43,6 +43,7 @@ export const commands: Command = [
   { cmd: "whoami", desc: "about current user", tab: 7 },
   { cmd: "datalog", desc: "teeeesting!", tab: 9 },
   { cmd: "organisation", desc: "teeeesting!", tab: 9 },
+  { cmd: "login", desc: "login to terminal", tab: 7},
 ];
 
 type Term = {
