@@ -5,10 +5,11 @@ const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduIntro><b>MISSION BOARD</b><p>=============</p></EduIntro>
-      <EduIntro>TEST BOI<p>yeet</p></EduIntro>
-      <EduList>Test2</EduList>
+      <EduIntro>CRITICAL MISSION AVAILABLE - CLOSED CHANNEL <b>[DIRECT REQUEST > SSF]</b><p>Start</p></EduIntro>
+      <EduIntro>Continue</EduIntro>
+      <EduIntro>Finish</EduIntro>
       <EduList>‎ </EduList>
-      <EduList><p>Test4</p><p>Test3</p></EduList>
+      <EduIntro>Test4<p>Test3</p></EduIntro>
     </Wrapper>
   );
 };
