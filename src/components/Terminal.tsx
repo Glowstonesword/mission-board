@@ -44,7 +44,7 @@ export const commands: Command = [
   { cmd: "datalog", desc: "teeeesting!", tab: 9 },
   { cmd: "organisation", desc: "teeeesting!", tab: 9 },
   { cmd: "login", desc: "login to terminal", tab: 7},
-  { cmd: "welcomeodin", desc: "memes", tab: 7},
+  { cmd: "4thebirdz", desc: "memes", tab: 7},
 ];
 
 
