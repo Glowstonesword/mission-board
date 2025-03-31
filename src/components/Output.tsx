@@ -13,6 +13,8 @@ import Datalog from "./commands/Datalog";
 import Organisation from "./commands/Organisation";
 import Login from "./commands/Login";
 import WelcomeOdin from "./commands/WelcomeOdin";
+import Comms from "./commands/Comms";
+import CommsOdin from "./commands/CommsOdin";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -51,6 +53,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           history: <History />,
           login: <Login />,
           "4thebirdz": <WelcomeOdin />,
+          "comms 4thebirdz": <CommsOdin />,
+          comms: <Comms />,
         }[cmd]
       }
     </OutputContainer>
