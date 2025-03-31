@@ -12,6 +12,7 @@ import Login from "./commands/Login";
 import WelcomeOdin from "./commands/WelcomeOdin";
 import Comms from "./commands/Comms";
 import CommsOdin from "./commands/CommsOdin";
+import Board from "./commands/Board";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -36,6 +37,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
       {
         {
           contacts: <Contacts />,
+          board: <Board />,
           projects: <Projects />,
           clear: <Clear />,
           themes: <Themes />,
