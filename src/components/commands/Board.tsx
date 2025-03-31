@@ -5,9 +5,9 @@ const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduList><b>MISSION BOARD</b></EduList>
-      <EduList>=============</EduList>
-      <EduList> </EduList>
-      <EduList>TEST BOI</EduList>
+      <EduIntro>=============</EduIntro>
+      <EduList>TEST BOI
+      Yeet</EduList>
       <EduList>Test2</EduList>
     </Wrapper>
   );
