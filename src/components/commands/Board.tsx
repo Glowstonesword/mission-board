@@ -1,7 +1,7 @@
 import { EduIntro, EduList } from "../styles/Education.styled";
 import { Wrapper } from "../styles/Output.styled";
 
-const CommsOdin: React.FC = () => {
+const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduIntro><b>MISSION BOARD</b></EduIntro>
@@ -30,4 +30,4 @@ const eduBg = [
   },
 ];
 
-export default CommsOdin;
+export default Board;
