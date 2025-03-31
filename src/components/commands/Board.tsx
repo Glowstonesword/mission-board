@@ -22,7 +22,7 @@ const eduBg = [
   {
     title: "What Goes Around",
     source: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]",
-    desc: "Test" "Test",
+    desc: Test,
     line: " ",
   },
   {
