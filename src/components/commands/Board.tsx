@@ -4,8 +4,8 @@ import { Wrapper } from "../styles/Output.styled";
 const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduIntro><b>MISSION BOARD</b>
-      ==============</EduIntro>
+      <EduIntro><b>MISSION BOARD</b></EduIntro>
+      <EduIntro>==============</EduIntro>
       {eduBg.map(({ title, source, desc, line }) => (
         <EduList key={title}>
           <div className="title">{title}</div>
