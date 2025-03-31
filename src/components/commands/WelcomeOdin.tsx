@@ -11,7 +11,7 @@ import {
 
 import { EduIntro, EduList } from "../styles/Education.styled";
 
-const Welcome: React.FC = () => {
+const WelcomeOdin: React.FC = () => {
   return (
     <HeroContainer data-testid="welcome">
       <div className="info-section">
@@ -81,4 +81,4 @@ const Welcome: React.FC = () => {
   );
 };
 
-export default Welcome;
+export default WelcomeOdin;
