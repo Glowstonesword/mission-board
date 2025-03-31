@@ -35,8 +35,7 @@ const WelcomeOdin: React.FC = () => {
 `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome, </div>
-        <EduIntro>CORVUS.</EduIntro>
+        <div>Welcome, <b>CORVUS</b></div>
         <Seperator>----</Seperator>
         <div>
           The main database can be found{" "}
