@@ -46,19 +46,18 @@ export const commands: Command = [
 
 
 export const commandHelp: Command = [
+  { cmd: "board", desc: "display available missions", tab: 9 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
+  { cmd: "comms", desc: "display incoming communications; private comms can be viewed by entering 'commsPASSWORD'", tab: 9 },
+  { cmd: "contacts", desc: "view available contacts", tab: 5 },
+  { cmd: "datalog", desc: "informational database access", tab: 9 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
-  { cmd: "main", desc: "main missions", tab: 9 },
-  { cmd: "optional", desc: "optional missions", tab: 5 },
-  { cmd: "lone", desc: "lone wolf missions", tab: 9 },
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },
-  { cmd: "contacts", desc: "view projects that I've coded", tab: 5 },
+  { cmd: "organisation", desc: "check organisation information", tab: 9 },
+  { cmd: "projects", desc: "view ongoing downtime projects", tab: 6 },
   { cmd: "pwd", desc: "print current working directory", tab: 10 },
-  { cmd: "projects", desc: "check out my social accounts", tab: 6 },
   { cmd: "themes", desc: "check available themes", tab: 7 },
-  { cmd: "datalog", desc: "teeeesting!", tab: 9 },
-  { cmd: "organisation", desc: "teeeesting!", tab: 9 },
 ];
 
 type Term = {
