@@ -55,7 +55,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           history: <History />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
           login: <Login />,
-          4thebirdz: <WelcomeOdin />,
+          "4thebirdz": <WelcomeOdin />,
         }[cmd]
       }
     </OutputContainer>
