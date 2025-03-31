@@ -6,6 +6,7 @@ const Board: React.FC = () => {
     <Wrapper data-testid="education">
       <EduIntro><b>MISSION BOARD</b></EduIntro>
       <EduIntro>==============</EduIntro>
+      <EduList>TEST BOI</EduList>
       {eduBg.map(({ title, source, intro, line }) => (
         <EduList key={title}>
           <div className="title">{title}</div>
