@@ -38,7 +38,7 @@ const eduBg = [
   {
     title: "Something Or Other",
     source: "MISSION AVAILABLE - OPEN CHANNEL [OPEN CONTRACTS > IPS-N]",
-    intro: "Test", "test",
+    intro: "Test  test2",
     line: " ",
   },
   {
