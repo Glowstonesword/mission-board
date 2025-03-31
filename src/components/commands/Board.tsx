@@ -4,10 +4,8 @@ import { Wrapper } from "../styles/Output.styled";
 const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduList><b>MISSION BOARD</b></EduList>
-      <EduList>=============</EduList>
-      <EduIntro>‎ </EduIntro>
-      <EduList>TEST BOI</EduList>
+      <EduIntro><b>MISSION BOARD</b><p>=============</p></EduIntro>
+      <EduIntro>TEST BOI<p>yeet</p></EduIntro>
       <EduList>Test2</EduList>
       <EduList>‎ </EduList>
       <EduList><p>Test4</p><p>Test3</p></EduList>
