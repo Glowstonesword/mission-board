@@ -5,7 +5,6 @@ const Login: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduIntro>Please enter password.</EduIntro>
-      )}
     </Wrapper>
   );
 };
