@@ -10,7 +10,7 @@ const Board: React.FC = () => {
       <EduList>TEST BOI</EduList>
       <EduList>Test2</EduList>
       <EduList>‎ </EduList>
-      <EduList>Test3</EduList>
+      <EduList><p>Test4</p><p>Test3</p></EduList>
     </Wrapper>
   );
 };
