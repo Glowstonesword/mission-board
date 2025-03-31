@@ -14,6 +14,7 @@ import Themes from "./commands/Themes";
 import Datalog from "./commands/Datalog";
 import Organisation from "./commands/Organisation";
 import Login from "./commands/Login";
+import WelcomeOdin from "./commands/WelcomeOdin";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -54,6 +55,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           history: <History />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
           login: <Login />,
+          welcomeodin: <WelcomeOdin />,
         }[cmd]
       }
     </OutputContainer>
