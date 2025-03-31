@@ -13,6 +13,7 @@ import WelcomeOdin from "./commands/WelcomeOdin";
 import Comms from "./commands/Comms";
 import CommsOdin from "./commands/CommsOdin";
 import Board from "./commands/Board";
+import WelcomeTest from "./commands/WelcomeTest";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -51,6 +52,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           "4thebirdz": <WelcomeOdin />,
           "comms4thebirdz": <CommsOdin />,
           comms: <Comms />,
+          testlogin: <WelcomeTest />,
         }[cmd]
       }
     </OutputContainer>
