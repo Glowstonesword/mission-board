@@ -1,9 +1,6 @@
 import Clear from "./commands/Clear";
 import Echo from "./commands/Echo";
-import Main from "./commands/Main";
-import Optional from "./commands/Optional";
 import GeneralOutput from "./commands/GeneralOutput";
-import Lone from "./commands/Lone";
 import Help from "./commands/Help";
 import History from "./commands/History";
 import Contacts from "./commands/Contacts";
@@ -38,9 +35,6 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
     <OutputContainer data-testid={index === 0 ? "latest-output" : null}>
       {
         {
-          main: <Main />,
-          optional: <Optional />,
-          lone: <Lone />,
           contacts: <Contacts />,
           projects: <Projects />,
           clear: <Clear />,
