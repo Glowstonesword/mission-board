@@ -6,9 +6,14 @@ const Board: React.FC = () => {
     <Wrapper data-testid="education">
       <EduList><b>MISSION BOARD</b></EduList>
       <EduIntro>=============</EduIntro>
-      <EduList>TEST BOI
-      Yeet</EduList>
+      <EduList>TEST BOI</EduList>
       <EduList>Test2</EduList>
+      <EduIntro>Test3</EduIntro>
+      <EduList>Test4</EduList>
+      <EduList>‎ </EduList>
+      <EduList>Test5</EduList>
+      <EduIntro>‎ </EduIntro>
+      <EduList>Test6</EduList>
     </Wrapper>
   );
 };
