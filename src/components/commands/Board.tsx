@@ -11,16 +11,6 @@ const Board: React.FC = () => {
           <div className="title">{title}</div>
           <div className="source">{source}</div>
           <div className="intro">{intro}</div>
-          <div className="para1">{para1}</div>
-          <div className="para2">{para2}</div>
-          <div className="para3">{para3}</div>
-          <div className="para4">{para4}</div>
-          <div className="para5">{para5}</div>
-          <div className="para6">{para6}</div>
-          <div className="para7">{para7}</div>
-          <div className="para8">{para8}</div>
-          <div className="para9">{para9}</div>
-          <div className="para10">{para10}</div>
           <div className="line">{line}</div>
         </EduList>
       ))}
