@@ -22,7 +22,7 @@ const eduBg = [
   {
     title: "What Goes Around",
     source: "MISSION AVAILABLE - DIRECTLY FORWARDED [OPEN CONTRACTS > IPS-N]",
-    desc: "Test",
+    desc: "Test" "Test",
     line: " ",
   },
   {
@@ -34,7 +34,7 @@ const eduBg = [
   {
     title: "Who Watches The Watchers",
     source: "MISSION AVAILABLE - CLOSED CHANNEL [CLOSED CONTRACT > SSF]",
-    desc: "Test",
+    desc: "Flock of Iron. This is Lieutenant Bridges."
     line: " ",
   },
 ];
