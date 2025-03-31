@@ -5,7 +5,8 @@ const Board: React.FC = () => {
   return (
     <Wrapper data-testid="education">
       <EduList><b>MISSION BOARD</b></EduList>
-      <EduIntro>==============</EduIntro>
+      <EduList>=============</EduList>
+      <EduList> </EduList>
       <EduList>TEST BOI</EduList>
       <EduList>Test2</EduList>
     </Wrapper>
