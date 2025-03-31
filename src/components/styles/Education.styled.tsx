@@ -5,7 +5,7 @@ export const EduIntro = styled.div`
 `;
 
 export const EduList = styled.div`
-  margin-bottom: 1rem;
+  margin-bottom: 0.275rem;
 
   .title {
     font-weight: 700;
