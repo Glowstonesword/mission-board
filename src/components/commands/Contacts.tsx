@@ -15,6 +15,8 @@ const Contacts: React.FC = () => {
       <EduIntro>Working to keep things running smoothly at the <b>GIBRALTAR COMPLEX</b>, <b>TECHNICIAN WINNA ROUGE</b> is the port of call to the <b>FLOCK OF IRON</b> for their material needs from the <b>SSF</b></EduIntro>
       <EduList>‎ </EduList>
       <EduList>‎ </EduList>
+      <EduList>‎ </EduList>
+      <EduList>‎ </EduList>
       <EduIntro><b>UNCLIPPED WINGS</b><p>RISING RAGTAG REVOLUTIONARIES</p><p>=============</p></EduIntro>
     </Wrapper>
   );
