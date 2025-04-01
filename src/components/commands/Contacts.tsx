@@ -44,9 +44,6 @@ const Contacts: React.FC = () => {
       <EduIntro><b>ALBUS</b><p>NO MAGIC HERE</p></EduIntro>
       <EduIntro>Looks after <b>DODGER</b> and <b>TROUBLE</b>, as well as several other orphans and homeless, in the slum area of the <b>GIBRALTAR COMPLEX</b>. Has since gained greater recognition as a manager of a safe space for the downtrodden since your 'visit' to the slums.</EduIntro>
       <EduList>‎ </EduList>
-      <EduIntro><b>ALBUS</b><p>NO MAGIC HERE</p></EduIntro>
-      <EduIntro>Looks after <b>DODGER</b> and <b>TROUBLE</b>, as well as several other orphans and homeless, in the slum area of the <b>GIBRALTAR COMPLEX</b>. Has since gained greater recognition as a manager of a safe space for the downtrodden since your 'visit' to the slums.</EduIntro>
-      <EduList>‎ </EduList>
       <EduIntro><b>AARON</b><p>PROWD OWNER OF AARON'S ARSENAL EMPORIUM</p></EduIntro>
       <EduIntro>Store manager of the self-titled <b>AARON'S ARSENAL EMPORIUM</b>. Has sold the group supplies and traded information to them. Looking forward to the group's next visit!</EduIntro>
       <EduList>‎ </EduList>
