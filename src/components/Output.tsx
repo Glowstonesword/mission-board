@@ -13,6 +13,7 @@ import WelcomeOdin from "./commands/WelcomeOdin";
 import Comms from "./commands/Comms";
 import CommsOdin from "./commands/CommsOdin";
 import CommsMicah from "./commands/CommsMicah";
+import WelcomeMicah from "./commands/WelcomeMicah";
 import Board from "./commands/Board";
 import WelcomeTest from "./commands/WelcomeTest";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
