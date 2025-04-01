@@ -16,8 +16,16 @@ const Contacts: React.FC = () => {
       <EduList>‎ </EduList>
       <EduList>‎ </EduList>
       <EduList>‎ </EduList>
-      <EduList>‎ </EduList>
       <EduIntro><b>UNCLIPPED WINGS</b><p>RISING RAGTAG REVOLUTIONARIES</p><p>=============</p></EduIntro>
+      <EduIntro><b>JASPER BLACKTHORNE</b><p>ABSOLUTE UNIT</p></EduIntro>
+      <EduIntro>Heading the local division of the <b>UNCLIPPED WINGS</b>, and old friend of <b>CORVUS</b>, <b>JASPER</b> pilots a minigun-wielding <b>GOLIATH</b> in his efforts to bring an end to the corporation's grip on the galaxy.</EduIntro>
+      <EduList>‎ </EduList>
+      <EduIntro><b>GWEN CATLOW</b><p>ABSOLUTE UNIT</p></EduIntro>
+      <EduIntro>Second-in-command and quartermaster of the local division of the <b>UNCLIPPED WINGS</b>, <b>GWEN</b> is a young strategic prodigy backing up and being trained by <b>JASPER BLACKTHORNE</b> in their fight.</EduIntro>
+      <EduList>‎ </EduList>
+      <EduList>‎ </EduList>
+      <EduList>‎ </EduList>
+      <EduIntro><b>HORUS</b><p>AT LEAST THEY'RE NOT FROM 40K</p><p>=============</p></EduIntro>
     </Wrapper>
   );
 };
