@@ -4,7 +4,7 @@ import { Wrapper } from "../styles/Output.styled";
 const Contacts: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduIntro><b>SSF</b><p>SCRAPHEAP SECURITY FORCE</p><p>=============</p></EduIntro>
+      <EduIntro><b>SCRAPHEAP SECURITY FORCE</b><p>OVERWORKED PEACEKEEPERS</p><p>=============</p></EduIntro>
       <EduIntro><b>CPT. FERRA AUTUMN</b><p>OH CAPTAIN MY CAPTAIN</p></EduIntro>
       <EduIntro><b>CAPTAIN FERRA AUTUMN</b> is the captain of the local forces of the <b>SCRAPYARD SECURITY FORCE</b>.</EduIntro>
       <EduList>‎ </EduList>
