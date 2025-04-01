@@ -4,7 +4,7 @@ import { Wrapper } from "../styles/Output.styled";
 const Organisation: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduIntro>Organisation information will be here.</EduIntro>
+      <b>FLOCK OF IRON</b><p>FORMATION PROGRESS 4/5</p><p>=============</p>
     </Wrapper>
   );
 };
