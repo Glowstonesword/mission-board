@@ -12,6 +12,7 @@ import Login from "./commands/Login";
 import WelcomeOdin from "./commands/WelcomeOdin";
 import Comms from "./commands/Comms";
 import CommsOdin from "./commands/CommsOdin";
+import CommsMicah from "./commands/CommsMicah";
 import Board from "./commands/Board";
 import WelcomeTest from "./commands/WelcomeTest";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
@@ -51,6 +52,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           login: <Login />,
           "4thebirdz": <WelcomeOdin />,
           "comms4thebirdz": <CommsOdin />,
+          "sp4nn3r": <WelcomeMicah />,
+          "commssp4nn3r": <CommsMicah />,
           comms: <Comms />,
           testlogin: <WelcomeTest />,
         }[cmd]
