@@ -25,7 +25,7 @@ const Contacts: React.FC = () => {
       <EduList>‎ </EduList>
       <EduList>‎ </EduList>
       <EduList>‎ </EduList>
-      <EduIntro><b>HORUS</b><p>AT LEAST THEY'RE NOT FROM 40K</p><p>=============</p></EduIntro>
+      <EduIntro><b>HORUS</b><p>AT LEAST THIS ISN'T 40K</p><p>=============</p></EduIntro>
     </Wrapper>
   );
 };
