@@ -27,7 +27,7 @@ const Contacts: React.FC = () => {
       <EduList>‎ </EduList>
       <EduIntro><b>HORUS</b><p>AT LEAST THIS ISN'T 40K</p><p>=============</p></EduIntro>
       <EduIntro><b>FORUM ADMIN ???</b><p>3DG3Y A5 FUCK</p></EduIntro>
-      <EduIntro><b>An unknown <b>HORUS</b> member that possibly runs a local sect, found online through the work of <b>KATZEN</b> and <b>KIRCHE</b>. Has given the group information on a quid-pro-quo basis before several times.</EduIntro>
+      <EduIntro>An unknown <b>HORUS</b> member that possibly runs a local sect, found online through the work of <b>KATZEN</b> and <b>KIRCHE</b>. Has given the group information on a quid-pro-quo basis before several times.</EduIntro>
       <EduList>‎ </EduList>
       <EduIntro><b>THE CULT OF ARTIFICIAL EVOLUTION</b><p>FANATICS WITH A FIGHTPIT</p></EduIntro>
       <EduIntro>A relatively local sect of the <b>CULT OF RA</b>, this group dedicated to the advancement of mech technology through gladiatorial combat in <b>RA</b>'s name. <b>MICAH</b> and <b>JACK</b> have met them in person and received their approval.</EduIntro>
