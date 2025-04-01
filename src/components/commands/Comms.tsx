@@ -4,7 +4,8 @@ import { Wrapper } from "../styles/Output.styled";
 const Comms: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduIntro>Comms will be here.</EduIntro>
+      <EduIntro><b>COMMUNICATIONS</b><p>FLOCK OF IRON - FIELD TEAM ALBATROSS</p><p>=============</p></EduIntro>
+      <EduIntro>No incoming communications detected.</EduIntro>
     </Wrapper>
   );
 };
