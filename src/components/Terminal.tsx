@@ -43,6 +43,8 @@ export const commands: Command = [
   { cmd: "comms4thebirdz", desc: "memes", tab: 7},
   { cmd: "comms", desc: "display incoming communications; private comms can be viewed by entering your password after (e.g. comms password)", tab: 8 },
   { cmd: "testlogin", desc: ".", tab: 6},
+  { cmd: "commssp4nn3r", desc: ".", tab:6},
+  { cmd: "sp4nn3r", desc: ".", tab:6},
 ];
 
 
