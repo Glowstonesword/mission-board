@@ -45,6 +45,10 @@ export const commands: Command = [
   { cmd: "testlogin", desc: ".", tab: 6},
   { cmd: "commssp4nn3r", desc: ".", tab:6},
   { cmd: "sp4nn3r", desc: ".", tab:6},
+  { cmd: "comms7gammagolf", desc: ".", tab:6},
+  { cmd: "7gammagolf", desc: ".", tab:6},
+  { cmd: "godsent123", desc: ".", tab:6},
+  { cmd: "commsgodsent123", desc: ".", tab:6},
 ];
 
 
