@@ -16,6 +16,8 @@ import CommsMicah from "./commands/CommsMicah";
 import WelcomeMicah from "./commands/WelcomeMicah";
 import Board from "./commands/Board";
 import WelcomeTest from "./commands/WelcomeTest";
+import WelcomeKirche from "./commands/WelcomeKirche";
+import CommsKirche from "./commands/CommsKirche";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -55,6 +57,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           "comms4thebirdz": <CommsOdin />,
           "sp4nn3r": <WelcomeMicah />,
           "commssp4nn3r": <CommsMicah />,
+          "7gammagolf": <WelcomeKirche />,
+          "comms7gammagolf": <CommsKirche />,
           comms: <Comms />,
           testlogin: <WelcomeTest />,
         }[cmd]
