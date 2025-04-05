@@ -18,6 +18,8 @@ import Board from "./commands/Board";
 import WelcomeTest from "./commands/WelcomeTest";
 import WelcomeKirche from "./commands/WelcomeKirche";
 import CommsKirche from "./commands/CommsKirche";
+import WelcomeKatzen from "./commands/WelcomeKatzen";
+import CommsKatzen from "./commands/CommsKatzen";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -61,6 +63,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           "comms7gammagolf": <CommsKirche />,
           comms: <Comms />,
           testlogin: <WelcomeTest />,
+          "godsent123": <WelcomeKatzen />,
+          "commsgodsent123": <CommsKatzen />,
         }[cmd]
       }
     </OutputContainer>
