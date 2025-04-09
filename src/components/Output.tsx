@@ -20,6 +20,8 @@ import WelcomeKirche from "./commands/WelcomeKirche";
 import CommsKirche from "./commands/CommsKirche";
 import WelcomeKatzen from "./commands/WelcomeKatzen";
 import CommsKatzen from "./commands/CommsKatzen";
+import WelcomeJack from "./commands/WelcomeJack";
+import CommsJack from "./commands/CommsJack";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -65,6 +67,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           testlogin: <WelcomeTest />,
           "godsent123": <WelcomeKatzen />,
           "commsgodsent123": <CommsKatzen />,
+          "eidolon123": <WelcomeJack />,
+          "commseidolon123": <CommsJack />,
         }[cmd]
       }
     </OutputContainer>
